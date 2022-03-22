@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-ftd2xx-main.flake = false;
+  inputs.src-ftd2xx-main.ref   = "refs/heads/main";
   inputs.src-ftd2xx-main.owner = "leeooox";
-  inputs.src-ftd2xx-main.ref   = "main";
   inputs.src-ftd2xx-main.repo  = "ftd2xx";
   inputs.src-ftd2xx-main.type  = "github";
   
