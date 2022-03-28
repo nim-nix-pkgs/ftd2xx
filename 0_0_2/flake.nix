@@ -11,7 +11,6 @@
   inputs.src-ftd2xx-0_0_2.ref   = "refs/tags/0.0.2";
   inputs.src-ftd2xx-0_0_2.owner = "leeooox";
   inputs.src-ftd2xx-0_0_2.repo  = "ftd2xx";
-  inputs.src-ftd2xx-0_0_2.dir   = "";
   inputs.src-ftd2xx-0_0_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
